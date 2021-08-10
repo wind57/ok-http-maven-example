@@ -1,3 +1,8 @@
 To reproduce:
 
 1) mvn clean package
+2) cd target
+3) jar xvf ok-http-maven-example-1.0-SNAPSHOT.jar
+4) ls BOOT-INF/lib | grep okhttp
+
+See that the version is 3.14.4
